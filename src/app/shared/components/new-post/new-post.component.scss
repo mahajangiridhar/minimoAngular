@@ -1,0 +1,40 @@
+.headingSmall{
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: light;
+	text-transform: uppercase;
+}
+.headingSmall>a{
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: light;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.heading{
+	font-size: 30px;
+	color: #626262;
+}
+.para{
+	font-size: 14px;
+	color: #626262;
+}
+.thumbImg{
+	width: 100%;
+	object-fit: cover;
+	height: 280px;
+}
+.loadBtn{
+	border: 1px solid;
+	padding: 15px 30px;
+	border-radius: 0%;
+	margin: 0 auto;
+	margin-top: 90px;
+	font-size: 20px;
+	color: #626262;
+}
+.loadBtn:hover, .loadBtn:active{
+	background-color: #626262;
+	color: #fff;
+	transition: all 0.7s ease-in;
+}

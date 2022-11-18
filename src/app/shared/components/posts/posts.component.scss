@@ -1,0 +1,26 @@
+.headingSmall{
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: light;
+	text-transform: uppercase;
+}
+.headingSmall>a{
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: light;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.heading{
+	font-size: 30px;
+	color: #626262;
+}
+.para{
+	font-size: 14px;
+	color: #626262;
+}
+.thumbImg{
+	width: 100%;
+	object-fit: cover;
+	height: 280px;
+}

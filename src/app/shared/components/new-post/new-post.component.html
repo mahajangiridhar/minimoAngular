@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row mb-70">
+        <div class="col-md-6 justify-content-between" *ngFor="let post of newPostArray">
+            <figure class="posts">
+                <div class="thumbnail">
+                    <img [src]="post.imgLink" alt="thumbImg5.jpg" class="thumbImg mb-30">
+                </div>
+                <p class="headingSmall mb-25">
+                    {{post.category}}
+                </p>
+                <h2 class="heading mb-30">
+                    {{post.heading}} 
+                </h2>
+                <p class="para">
+                    {{post.content}}
+                </p>
+            </figure>
+        </div>
+    <button class="btn loadBtn btn-transparent">Load More</button>
+    </div>
+</div>
